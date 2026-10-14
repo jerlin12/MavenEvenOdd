@@ -4,6 +4,6 @@ import org.junit.jupiter.api.Test;
 public class EvenOddTest {
     @Test
     public void testEven() {
-        assertEquals("Odd", EvenOdd.check(10));
+        assertEquals("Even", EvenOdd.check(10));
     }
 }
